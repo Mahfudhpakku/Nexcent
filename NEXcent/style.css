@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;700&family=Roboto:ital,wght@0,400;0,900;1,500;1,700&display=swap");
+
+:root {
+  --backgroundColorPrimary: #f5f7fa;
+  --backgroundColorSecondary: #fff;
+
+  --colorBrandPrimary: #4caf4f;
+  /* --colorSecondary:  */
+  --text-gray-900: #18191f;
+  --textNeutral: #4d4d4d;
+  --textNeutral2: #717171;
+}
+
+li,
+a,
+button {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  padding: 1rem 0;
+  background-color: var(--backgroundColorPrimary);
+}
+
+/* Navigation */
+.main-container header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.ul_links {
+  display: flex;
+  gap: 1rem;
+  list-style-type: none;
+}
+
+.ul_links li a {
+  text-decoration: none;
+  color: var(--text-gray-900);
+}
+
+/* button */
+.btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 0.5rem;
+}
+.btn .cta button {
+  color: var(--colorBrandPrimary);
+  background-color: var(--backgroundColorSecondary);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+}
+
+/* .btn .cta a  button {
+  color: var(--backgroundColorSecondary);
+  background-color: var(--colorBrandPrimary);
+  border: 1px solid transparent;
+  border-radius: 12px;
+  padding: 0.6rem 1.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+} */
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: stretch;
+  padding: 4rem 7rem;
+  gap: 4.5rem;
+}
+
+.hero .hero-left h3 {
+  width: auto;
+  font-family: "poppins", sans-serif;
+  font-size: 4rem;
+  font-weight: 600;
+  font-style: normal;
+  align-self: stretch;
+  line-height: 4.75rem;
+  color: var(--textNeutral);
+  padding: 0.5rem 0;
+}
+
+.hero .hero-left p {
+  font-family: "poppins", sans-serif;
+  color: var(--textNeutral);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+  padding: 0.5rem 0;
+}
+
+.hero .hero-left a {
+  padding: 2rem 0;
+}
+
+.hero .hero-left a button {
+  color: var(--backgroundColorSecondary);
+  background-color: var(--colorBrandPrimary);
+  border: 1px solid transparent;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.25rem;
+  gap: 0.625rem;
+}
+
+/* HOME */
+.home {
+  display: flex;
+  width: 480.768px;
+  padding: 0px 48.077px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.342px;
+}
+
+.home .clients {
+  display: flex;
+  width: 480.768px;
+  padding: 0px 48.077px;
+  flex-direction: column;
+  align-items: center;
+  gap: 5.342px;
+}
+
+.home .clients > h3 {
+  color: var(--neutral-d-grey, #4d4d4d);
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 12.019px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14.69px;
+}
